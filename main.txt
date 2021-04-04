@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double num1, num2, num3;
+    cout << "Enter value of x" << endl;
+    cin >> num1;
+    cout << "Enter value of y" << endl;
+    cin >> num2;
+    cout << "Enter value of z" << endl;
+    cin >> num3;
+    cout << "Results: "<< num1+num2+num3;
+    return 0;
+}
