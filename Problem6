@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double num1;
+    cout << "Enter a number:" << endl;
+    cin >> num1;
+    if(num1>=0 && num1<=10){
+        cout << "blue" << endl;
+    } else if(num1>=10 && num1<=20){
+        cout << "red" << endl;
+    } else if(num1>=20 && num1<=30){
+        cout << "green" << endl;
+    } else {
+        cout << "It is not a correct color option" << endl;
+    }
+}
