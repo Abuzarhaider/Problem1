@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    float F, C; //C for celsius and F for fahrenheit
+    cout << "To convert Fahrenheit to Celsius , write a number and press enter: " ;
+    cin >> F;
+    C = (F-32)*5/9;
+    cout << "Temprature in Celsius: " << C;
+    return 0;
+}
