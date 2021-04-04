@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double num1;
+    cout << "Enter any number" << endl;
+    cin >> num1;
+    if(num1==5){
+        cout<< "Your number is 5";
+    } else if(num1==6){
+        cout<< "Your number is 6";
+    } else{
+        cout<< "Your number is not 5 or 6";
+    }
+    return 0;
+}
