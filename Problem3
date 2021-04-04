@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double num1, num2;
+    cout << "Enter working hours" << endl;
+    cin >> num1;
+    cout << "Enter wages per working hour" << endl;
+    cin >> num2;
+    cout << "Salary: "<< num1*num2;
+    return 0;
+}
